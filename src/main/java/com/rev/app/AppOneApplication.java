@@ -23,8 +23,9 @@ public class AppOneApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 
 		FlipKart fk=ac.getBean(FlipKart.class);		
+		
 		fk.placeOrder("Lenovo Lappy", "Madhapur");
-			
+		System.out.println("Order Placed Successfully");	
 		
 	}
 }
