@@ -25,7 +25,7 @@ public class AppOneApplication implements CommandLineRunner{
 		FlipKart fk=ac.getBean(FlipKart.class);		
 		
 		fk.placeOrder("Lenovo Lappy", "Madhapur");
-		System.out.println("Order Placed Successfull");	
+		System.out.println("Order Placed Successful");	
 		
 	}
 }
